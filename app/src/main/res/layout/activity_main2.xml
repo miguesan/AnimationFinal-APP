@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo2"
+    tools:context="com.example.miguel.animationfinalapp.Main2Activity">
+
+
+    <FrameLayout
+        android:id="@+id/fPortal"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+    </FrameLayout>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="0dp"
+        android:layout_height="100dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginStart="1dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/titulo" />
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/portal"
+        android:layout_width="105dp"
+        android:layout_height="137dp"
+        android:layout_marginBottom="56dp"
+        android:layout_marginStart="188dp"
+        android:src="@drawable/portal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/portal2"
+        android:layout_width="105dp"
+        android:layout_height="137dp"
+        android:layout_marginBottom="348dp"
+        android:layout_marginStart="220dp"
+        android:src="@drawable/portal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/portal3"
+        android:layout_width="105dp"
+        android:layout_height="137dp"
+        android:layout_marginBottom="160dp"
+        android:layout_marginStart="260dp"
+        android:src="@drawable/portal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/portal4"
+        android:layout_width="105dp"
+        android:layout_height="137dp"
+        android:layout_marginBottom="236dp"
+        android:layout_marginStart="160dp"
+        android:src="@drawable/portal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/portal5"
+        android:layout_width="105dp"
+        android:layout_height="137dp"
+        android:layout_marginBottom="84dp"
+        android:layout_marginStart="44dp"
+        android:src="@drawable/portal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/portal6"
+        android:layout_width="105dp"
+        android:layout_height="137dp"
+        android:layout_marginBottom="308dp"
+        android:layout_marginStart="40dp"
+        android:src="@drawable/portal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints" />
+
+
+</android.support.constraint.ConstraintLayout>
