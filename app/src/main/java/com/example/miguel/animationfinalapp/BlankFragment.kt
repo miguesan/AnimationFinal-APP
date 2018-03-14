@@ -15,7 +15,7 @@ import android.view.ViewGroup
  * create an instance of this fragment.
  */
 class BlankFragment : Fragment() {
-    //Fragment de GANAR, donde agregamos un gif y su texto en el LAYOUT que saldrá al perder
+    //Fragment de GANAR, donde agregamos un gif y su texto en el LAYOUT que saldrá al ganar
     //que aparecerá en la Main2Activity
 
     var ganar: String = ""

@@ -47,13 +47,13 @@ class Main2Activity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main2)
 
-        tarea_animacion1() //lamada al metodo para el primer portal
-        tarea_animacion2() //lamada al metodo para el segundo portal
-        tarea_animacion3() //lamada al metodo para el tercer portal
-        tarea_animacion4() //lamada al metodo para el cuarto portal
-        tarea_animacion5() //lamada al metodo para el quinto portal
-        tarea_animacion6() //lamada al metodo para el sexto portal
-        capturado() //lamada para al cliquear en uno de los portales, llame al metodo de
+        tarea_animacion1() //lamada animación para el primer portal
+        tarea_animacion2() //lamada animación para el segundo portal
+        tarea_animacion3() //lamada animación para el tercer portal
+        tarea_animacion4() //lamada animación para el cuarto portal
+        tarea_animacion5() //lamada animación para el quinto portal
+        tarea_animacion6() //lamada animación para el sexto portal
+        capturado() //lamada para al cliquear en uno de los portales, llame a la función de
                     // "comprobarPartida" si es correcto y realice la llamada a los FRAGMENT
 
     }
@@ -170,7 +170,7 @@ class Main2Activity : AppCompatActivity() {
 
     fun comprobarPartida(){
 
-        //metodo comparacion si el portal seleccionado vale para ganar
+        //compara si el portal seleccionado vale para ganar
         //si está oculto el incorrecto o cualquiera del que no sea el correcto
         // perdemos, ya que solo hay un intento
 
