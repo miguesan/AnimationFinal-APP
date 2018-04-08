@@ -1,4 +1,4 @@
-The Rick´s Portal Gun
+<b> The Rick´s Portal Gun </b>
 
 El juego es parecido al busca minas. Debes tocar uno de los portales, si acertaste se ocultaran y saldrá que ganaste, si no,
 se ocultaran todos y perderas.
